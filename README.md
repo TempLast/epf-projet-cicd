@@ -1,12 +1,10 @@
 # epf-app — base commune du Projet CI/CD
 
-![CI](https://github.com/<organisation>/<depot>/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/TempLast/epf-projet-cicd/actions/workflows/ci.yml/badge.svg)](https://github.com/TempLast/epf-projet-cicd/actions/workflows/ci.yml)
 
 Point de départ de toutes les équipes : une petite API Express, sa chaîne d'intégration
 continue et sa publication d'image. Vous y ajouterez, séance après séance, le monitoring,
 Terraform, Ansible et vos rapports.
-
-> Remplacez `<organisation>/<depot>` dans le badge ci-dessus dès la création de votre dépôt.
 
 ## Ce que le dépôt contient déjà
 
@@ -86,3 +84,6 @@ Le workflow *Release* ne publie l'image que si le scan et le test de démarrage 
 
 **Si une version est cassée** : elle n'est pas publiée, `stable` reste sur la précédente.
 On corrige par `git revert <sha>` en PR, puis une version correctif `vX.Y.(Z+1)`.
+
+
+## TEAM 1 : Valentin, Pierre & Steeven
