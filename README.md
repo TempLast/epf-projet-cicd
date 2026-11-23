@@ -84,3 +84,6 @@ Le workflow *Release* ne publie l'image que si le scan et le test de démarrage 
 
 **Si une version est cassée** : elle n'est pas publiée, `stable` reste sur la précédente.
 On corrige par `git revert <sha>` en PR, puis une version correctif `vX.Y.(Z+1)`.
+
+
+## TEAM 1 : Valentin, Pierre & Steeven
