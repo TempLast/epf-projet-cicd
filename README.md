@@ -1,12 +1,10 @@
 # epf-app — base commune du Projet CI/CD
 
-![CI](https://github.com/<organisation>/<depot>/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/TempLast/epf-projet-cicd/actions/workflows/ci.yml/badge.svg)](https://github.com/TempLast/epf-projet-cicd/actions/workflows/ci.yml)
 
 Point de départ de toutes les équipes : une petite API Express, sa chaîne d'intégration
 continue et sa publication d'image. Vous y ajouterez, séance après séance, le monitoring,
 Terraform, Ansible et vos rapports.
-
-> Remplacez `<organisation>/<depot>` dans le badge ci-dessus dès la création de votre dépôt.
 
 ## Ce que le dépôt contient déjà
 
